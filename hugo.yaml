@@ -1,0 +1,6 @@
+outputs:
+  home:
+  - html
+  blog:
+  - html
+  - rss

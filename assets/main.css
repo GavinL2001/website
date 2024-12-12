@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer components {
+  .nav {
+    @apply text-lg text-nord10 dark:text-nord4 font-semibold;
+  }
+  .nav > a {
+    @apply hover:text-nord9;
+  }
+  .panel {
+    max-height: 0;
+    transition: 0.3s ease-out;
+  }
+  h2.accordion {
+    @apply text-nord10 dark:text-nord4;
+  }
+  a {
+    @apply text-nord10 hover:text-nord9 hover:underline dark:text-nord4 dark:hover:text-nord7;
+  }
+  .active {
+    @apply overflow-visible;
+  }
+  h1 {
+    @apply text-4xl mb-5 mt-1;
+  }
+  h2 {
+    @apply text-3xl mb-4 mt-1;
+  }
+  h3 {
+    @apply text-2xl mb-3 mt-1;
+  }
+  h4 {
+    @apply text-xl mb-2 mt-1;
+  }
+  h5 {
+    @apply text-lg mb-2 mt-1;
+  }
+
+  .prose ul,
+  .prose ol {
+    li::marker {
+      @apply text-nord6 dark:text-nord4;
+    }
+  }
+
+  body {
+    @apply text-nord10 bg-nord6 dark:text-nord4 dark:bg-nord0;
+  }
+  html {
+    touch-action: manipulation;
+    scroll-behavior: smooth;
+  }
+  p {
+    @apply mt-2 mb-2;
+  }
+  summary {
+    @apply block text-sm;
+  }
+  blockquote {
+    @apply bg-nord3 dark:bg-nord1 rounded;
+  }
+  .tags,
+  .categories {
+    @apply p-1 mr-2 mb-2 text-sm rounded hover:shadow;
+  }
+  .categories {
+    @apply text-nord7 bg-nord6 hover:bg-nord5 border border-nord11 dark:border-nord4 !important;
+  }
+  .tags {
+    @apply text-nord7 bg-nord4 hover:bg-nord5 border border-nord10 dark:border-nord6 !important;
+  }
+  .pagination {
+    @apply flex flex-row justify-center;
+  }
+  .page-link {
+    @apply px-2 sm:px-4 py-2 border border-nord6 flex justify-center items-center text-nord7 hover:text-nord10 hover:bg-nord4;
+  }
+  .page-item.disabled > .page-link {
+    @apply text-nord4 bg-nord6;
+  }
+  .page-item.active > .page-link {
+    @apply bg-nord5 pointer-events-none text-nord6;
+  }
+}
+
+.pagefind-ui__search-input {
+  color: black;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: 1px solid rgb(143, 188, 187); /* nord7 */
+}
+.pagefind-ui__search-clear {
+  display: none;
+}
+.dark .pagefind-ui__search-input {
+  color: white;
+  background-color: rgb(46, 52, 64); /* nord0 */
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border: 1px solid rgb(143, 188, 187); /* nord7 */
+}
+.dark .pagefind-ui__search-input::placeholder {
+  color: rgb(136, 192, 208); /* nord6 */
+}
+.chevron {
+  transition: 300ms linear rotate;
+}
+.active > .chevron {
+  transform: rotate(90deg);
+}

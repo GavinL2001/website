@@ -1,0 +1,177 @@
+baseURL: https://www.gavinliddell.us/
+languageCode: en-us
+build:
+  writeStats: true
+params:
+  title: Gavin's Blog
+  author: Gavin Liddell
+  description: A place for me to post my random thoughts
+  copyright: >-
+    powered by [hugo](https://gohugo.io/) & deployed on
+    [Cloudflare](https://www.cloudflare.com/)
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Gavin Liddell"
+    tagline: Student at UT Dallas
+    location: "Richardson, TX"
+    photo: profile.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: "https://www.linkedin.com/in/gavinliddell"
+        title: LinkedIn
+      # - icon: fab fa-stack-overflow
+      #   url: "#"
+      #   title: StackOverflow
+      - icon: fab fa-github
+        url: "https://github.com/GavinL2001"
+        title: GitHub
+      - icon: fab fa-twitter
+        url: "#"
+        title: Twitter
+      # - icon: fab fa-orcid
+      #   url: "#"
+      #   title: Orcid
+      # - icon: ai ai-google-scholar
+      #   url: "#"
+      #   title: Google Scholar
+      # - icon: fab fa-researchgate
+      #   url: "#"
+      #   title: ResearchGate
+  showInAccordion:
+    - item: aboutme
+      # expand: true
+    - item: experience
+    - item: education
+    # - item: publication
+    # - item: project
+    - item: skill
+    - item: hobby
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: I'm currently a student at the University of Texas at Dallas studying Computer Information Systems and Technology, with a focus in enterprise systems.
+  experience:
+    title: Experiences
+    icon: fas fa-briefcase
+    list:
+      - position: IT Intern
+        dates: Summer 2024
+        company: Harvest Midstream Company
+        details: |1-
+          - Created contractor account management application to manage 100s of contractor accounts.
+          - Documented 5 conference room audio/visual configurations for enhanced ease of use.
+          - Designed 6 phishing templates for 3 phishing campaigns to strengthen cybersecurity practices.
+          - Planned and analyzed office layout for 20+ new networking access points for optimal internet access.
+          - Presented summer projects to 8 executives, reporting newly developed skills.
+      - position: Media Production Crew
+        dates: Summer 2023
+        company: Montreat Conference Center
+      - position: Summer Program Facilitator
+        dates: Summer 2022
+        company: Presbyterian Mo-Ranch Assembly
+      - position: Lead Audio/Visual Technician
+        dates: 2017-2022
+        company: The Woodlands Community Presbyterian Church
+        details: |1-
+          - Coordinated live-streaming initiative including hardware installation worth $15,000.
+          - Collaborated with IT department to design a new network infrastructure, improving speeds by 400%.
+          - Onboarded and trained 2 new team members to ensure 0% of down-time.
+          - Designed 100+ ProPresenter slides per week to enhance worship experience.
+          - Enhanced the church’s outreach through sound production management.
+  education:
+    title: Education
+    icon: fas fa-graduation-cap
+    list:
+      - degree: B.S. in Computer Information Systems and Technology
+        college: University of Texas at Dallas
+        dates: 2023-Present
+      - degree: A.S. in Information Technology
+        college: Lone Star College - Montgomery
+        dates: 2020-2023
+  publication:
+    title: Publications
+    icon: fas fa-book
+    format:
+      - date
+      - title
+      - authors
+      - journal
+    types:
+      - Journal Articles
+      - Proceedings
+    list:
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Journal Articles
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Journal Articles
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Proceedings
+  project:
+    title: Projects
+    icon: fas fa-project-diagram
+    list:
+      - title: Project 1
+        url: "#"
+        description: Description of the project
+      - title: Project 2
+        url: "#"
+        description: Description of the project
+      - title: Project 3
+        url: "#"
+        description: Description of the project
+      - title: Project 4
+        url: "#"
+        description: Description of the project
+  skill:
+    title: Skills
+    panelId: skill-panel
+    icon: fas fa-cogs
+    list:
+      - skill: "OS: Windows, macOS, Linux"
+        skillrating: 70
+      - skill: "Software: Microsoft 365, Active Directory, Docker"
+        skillrating: 65
+      - skill: "Programming: Java, HTML, PowerShell, Bash, Git"
+        skillrating: 30
+      - skill: "Data: SQLite, Tableau"
+        skillrating: 10
+  hobby:
+    title: Hobbies
+    icon: fas fa-gamepad
+    list:
+      - hobby: Computer Building
+      - hobby: Gaming
+      - hobby: Rock Climbing
