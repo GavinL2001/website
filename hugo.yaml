@@ -1,6 +1,11 @@
 outputs:
   home:
   - html
-  blog:
+  - rss
+  section:
   - html
   - rss
+  taxonomy:
+  - html
+  term:
+  - html
