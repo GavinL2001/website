@@ -61,10 +61,16 @@ module.exports = {
           },
         },
       }),
+      letterSpacing: {
+        tighter: '-0.02em',
+        normal: '0',
+        wider: '0.02em',
+      },
     },
     fontFamily: {
-      'sans': ['"Open Sans"', '"Apple Color Emoji"'],
-      'mono': ['"Hack Nerd Font"']
+      'sans': ['"Open Sans"', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"'],
+      'serif': ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      'mono': ['"Hack Nerd Font"','ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
     },
   },
   variants: { typography: ["invert"], extend: {} },
