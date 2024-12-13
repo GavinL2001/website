@@ -46,7 +46,7 @@
     }
   }
 
-  body {
+  body, .standard, .top-h1, .prose {
     @apply text-nord10 bg-nord6 dark:text-nord4 dark:bg-nord0;
   }
   html {

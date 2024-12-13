@@ -1,5 +1,5 @@
 ---
-title: "A Students Perspective of Cheating in College"
+title: "A Student's Perspective of Cheating in College"
 
 date: 2024-05-11
 url: /a-students-perspective-of-cheating-in-college/

@@ -34,24 +34,15 @@ params:
       - icon: fab fa-linkedin-in
         url: "https://www.linkedin.com/in/gavinliddell"
         title: LinkedIn
-      # - icon: fab fa-stack-overflow
-      #   url: "#"
-      #   title: StackOverflow
       - icon: fab fa-github
         url: "https://github.com/GavinL2001"
         title: GitHub
       - icon: fab fa-twitter
-        url: "#"
+        url: "https://x.com/gavinliddell"
         title: Twitter
-      # - icon: fab fa-orcid
+      # - icon: fas fa-rss
       #   url: "#"
-      #   title: Orcid
-      # - icon: ai ai-google-scholar
-      #   url: "#"
-      #   title: Google Scholar
-      # - icon: fab fa-researchgate
-      #   url: "#"
-      #   title: ResearchGate
+      #   title: RSS
   showInAccordion:
     - item: aboutme
       # expand: true

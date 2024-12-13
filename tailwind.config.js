@@ -62,6 +62,10 @@ module.exports = {
         },
       }),
     },
+    fontFamily: {
+      'sans': ['"Open Sans"', '"Apple Color Emoji"'],
+      'mono': ['"Hack Nerd Font"']
+    },
   },
   variants: { typography: ["invert"], extend: {} },
   plugins: [
