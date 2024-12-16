@@ -11,8 +11,6 @@ tags:
   - Sociology
 draft: false
 ---
-<!--more-->
-
 Going through my life, I never expected to witness such rapid advancements in technology. Growing up in a home where my only access to the internet was the family computer shared between me and the rest in my household, the idea of robots and artificial intelligence invading the everyday was dystopian to me. Now, AI is practically inescapable.
 
 Since entering community college back in 2020, both mine and my classmates' workflows have drastically changed. I went from learning how to write essays and painstakingly correcting all grammatical errors by hand, to writing my ideas down as best I could before throwing my paragraphs into Grammarly, asking it to do 99% of the corrections for me. While this has helped me immensely without compromising my academic integrity, I don't know if I can say the same thing for my peers.
