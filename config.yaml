@@ -94,11 +94,12 @@ params:
     icon: fas fa-graduation-cap
     list:
       - degree: B.S. in Computer Information Systems and Technology
-        college: University of Texas at Dallas
-        dates: 2023-Present
-      - degree: A.S. in Information Technology
-        college: Lone Star College - Montgomery
-        dates: 2020-2023
+        institutions:
+          - dates: 2023-Present
+            college: University of Texas at Dallas
+          - dates: 2020-2023
+            college: Lone Star College - Montgomery
+          
   publication:
     title: Publications
     icon: fas fa-book
@@ -158,16 +159,19 @@ params:
     list:
       - skill: "OS: Windows, macOS, Linux"
         skillrating: 70
-      - skill: "Software: Microsoft 365, Active Directory, Docker"
+      - skill: "Software: Microsoft 365 + AD, Docker, SAP"
         skillrating: 65
-      - skill: "Programming: Java, HTML, PowerShell, Bash, Git"
+      - skill: "Programming/Automations: Java, HTML, PowerShell, UiPath"
+        skillrating: 50
+      - skill: "Artificial Intelligence: ChatGPT, ollama"
+        skillrating: 40
+      - skill: "Data: SQL, Excel"
         skillrating: 30
-      - skill: "Data: SQLite, Tableau"
-        skillrating: 10
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
       - hobby: Computer Building
+      - hobby: Homelab Managing
       - hobby: Gaming
       - hobby: Rock Climbing
