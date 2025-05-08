@@ -1,7 +1,7 @@
 ---
 title: "My Beginner's Guide to \"Weird\" Music"
 
-date: 2025-05-07
+date: 2025-05-08
 url: /my-beginners-guide-to-weird-music/
 image: images/2024/a-beginners-guide-to-weird-music.jpg
 categories:
