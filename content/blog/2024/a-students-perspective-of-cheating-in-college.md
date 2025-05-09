@@ -3,7 +3,7 @@ title: "A Student's Perspective of Cheating in College"
 
 date: 2024-05-11
 url: /a-students-perspective-of-cheating-in-college/
-image: images/2024/a-students-perspective-of-cheating-in-college.jpg
+# image: images/2024/a-students-perspective-of-cheating-in-college.jpg
 categories:
   - Opinion
 tags:
