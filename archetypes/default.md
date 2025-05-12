@@ -8,6 +8,7 @@ categories:
   - Opinion
   - Technology
   - Music
+  - Blog
 tags:
   - College
   - Sociology

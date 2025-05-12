@@ -6,6 +6,7 @@ url: /my-beginners-guide-to-weird-music/
 # image: images/2025/a-beginners-guide-to-weird-music.jpg
 categories:
   - Music
+  - Blog
 tags:
   - indie
   - pop

@@ -40,9 +40,9 @@ params:
       - icon: fab fa-twitter
         url: "https://x.com/gavinliddell"
         title: Twitter
-      # - icon: fas fa-rss
-      #   url: "#"
-      #   title: RSS
+      - icon: fas fa-rss
+        url: /categories/blog/index.xml
+        title: RSS
   showInAccordion:
     - item: aboutme
       expand: true

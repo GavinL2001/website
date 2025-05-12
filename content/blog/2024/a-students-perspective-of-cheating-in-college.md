@@ -6,6 +6,7 @@ url: /a-students-perspective-of-cheating-in-college/
 # image: images/2024/a-students-perspective-of-cheating-in-college.jpg
 categories:
   - Opinion
+  - Blog
 tags:
   - College
   - Sociology
