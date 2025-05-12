@@ -41,7 +41,7 @@ params:
         url: "https://x.com/gavinliddell"
         title: Twitter
       - icon: fas fa-rss
-        url: /categories/blog/index.xml
+        url: /index.xml
         title: RSS
   showInAccordion:
     - item: aboutme
@@ -211,3 +211,13 @@ outputs:
   taxonomy:
     - HTML
     - RSS
+
+imaging:
+  quality: 75
+  resampleFilter: 'Lanczos'
+  anchor: 'Smart'
+  exif:
+    disableDate: true
+    disableLatLong: true
+    # excludeFields: ''
+    # includeFields: ''
