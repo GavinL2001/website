@@ -175,3 +175,39 @@ params:
       - hobby: Homelab Managing
       - hobby: Gaming
       - hobby: Rock Climbing
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    extenstions:
+      - definitionList:
+          enable: true
+      - taskList:
+          enable: true
+      - footnote:
+          enable: true
+      - linkify:
+          enable: true
+      - strikethrough:
+          enable: true
+      - table:
+          enable: true
+      - smartypants:
+          enable: true
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+  page:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
