@@ -6,9 +6,9 @@ params:
   title: Gavin's Blog
   author: Gavin Liddell
   description: A place for me to post my random thoughts
-  copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+  copyright: |1-
+    - Powered by [hugo](https://gohugo.io/)
+    - Deployed on [Cloudflare](https://www.cloudflare.com/)
   theme:
     mainTheme: dark
     showAttribute: true
