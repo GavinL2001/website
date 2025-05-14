@@ -7,11 +7,11 @@ url: /my-beginners-guide-to-weird-music/
 categories:
   - Music
 tags:
-  - indie
-  - pop
-  - soul
-  - jazz
-  - comedy
+  - Indie
+  - Pop
+  - Soul
+  - Jazz
+  - Comedy
 draft: false
 ---
 **Language Warning**: parts of this article contains PG-13 language along with artists that create music with explicit lyrics. Each artist with explicit lyrics will be signified with an in-text reference  ([^1]).
