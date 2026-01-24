@@ -25,7 +25,7 @@ params:
 
   profile:
     name: "Gavin Liddell"
-    tagline: Student at UT Dallas
+    tagline: IT Professional | Audio/Visual Technician
     location: "Richardson, TX"
     photo: profile.jpg
   social:
@@ -37,9 +37,9 @@ params:
       - icon: fab fa-github
         url: "https://github.com/GavinL2001"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "https://x.com/gavinliddell"
-        title: Twitter
+      # - icon: fab fa-twitter
+      #   url: "https://x.com/gavinliddell"
+      #   title: Twitter
       - icon: fas fa-rss
         url: /index.xml
         title: RSS
