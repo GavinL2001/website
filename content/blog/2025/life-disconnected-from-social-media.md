@@ -13,9 +13,9 @@ tags:
 draft: false
 ---
 
-I don't want to waste your time if you clicked on this post, so if haven't talked in a while and you want to reconnect, please fill out the form below! You can submit your phone number, Discord ID, or both. Whatever you feel most comfortable sharing. Otherwise, feel free to scroll past the form to read the rest of the post!
+<!-- I don't want to waste your time if you clicked on this post, so if haven't talked in a while and you want to reconnect, please fill out the form below! You can submit your phone number, Discord ID, or both. Whatever you feel most comfortable sharing. Otherwise, feel free to scroll past the form to read the rest of the post!
 
-<iframe style="border:none;width:100%;" id="reconnection-form-jqkcjh" src="https://opnform.com/forms/reconnection-form-jqkcjh">Loading form...</iframe><script type="text/javascript" onload="initEmbed('reconnection-form-jqkcjh')" src="https://opnform.com/widgets/iframe.min.js"></script>
+<iframe style="border:none;width:100%;" id="reconnection-form-jqkcjh" src="https://opnform.com/forms/reconnection-form-jqkcjh">Loading form...</iframe><script type="text/javascript" onload="initEmbed('reconnection-form-jqkcjh')" src="https://opnform.com/widgets/iframe.min.js"></script> -->
 
 ## Background
 I feel like I have an interesting perspective on social media compared to most other people, seeing that I grew up homeschooled, didn't get my first smartphone until I was about 13, and didn't have access to most of the internet until I was 16. Many of my friends did not (many still don't) stay in touch with conventional communication methods (like texting or calling), creating difficulties when trying to stay in touch when you're one of their only friends who don't have social media.

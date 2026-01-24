@@ -70,6 +70,15 @@ params:
     icon: fas fa-briefcase
     list:
       - position: IT Intern
+        dates: Summer 2025
+        company: IMA Financial Group Inc.
+        details: |1-
+          - Managed 20+ laptops using Intune/Autopilot to optimize OOB user experience.
+          - Closed 20+ help desk tickets on-site and remotely using FreshService and ScreenConnect.
+          - Collected 100+ laptop service tags from 5+ sites for fetching warranty information and auditing.
+          - Created 2 PowerShell scripts to assist with importing laptops into FreshService inventory system.
+          - Assisted Systems Administrator with firewall configuration to optimize security and performance.
+      - position: IT Intern
         dates: Summer 2024
         company: Harvest Midstream Company
         details: |1-
@@ -77,7 +86,7 @@ params:
           - Documented 5 conference room audio/visual configurations for enhanced ease of use.
           - Designed 6 phishing templates for 3 phishing campaigns to strengthen cybersecurity practices.
           - Planned and analyzed office layout for 20+ new networking access points for optimal internet access.
-          - Presented summer projects to 8 executives, reporting newly developed skills.
+          - Presented summer projects to high-level executives, reporting newly developed skills.
       - position: Media Production Crew
         dates: Summer 2023
         company: Montreat Conference Center
@@ -163,14 +172,14 @@ params:
     list:
       - skill: "OS: Windows, macOS, Linux"
         skillrating: 70
-      - skill: "Software: Microsoft 365 + AD, Docker, SAP"
+      - skill: "Software: Microsoft 365, Active Directory, Docker, SAP"
         skillrating: 65
       - skill: "Programming/Automations: Java, HTML, PowerShell, UiPath"
         skillrating: 50
       - skill: "Artificial Intelligence: ChatGPT, ollama"
+        skillrating: 50
+      - skill: "Data: SQL, Excel, PowerBI, Tableau"
         skillrating: 40
-      - skill: "Data: SQL, Excel"
-        skillrating: 30
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
